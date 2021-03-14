@@ -16,8 +16,8 @@ target_sources(namebadge
         src/namebadge.c
 )
 
-pico_enable_stdio_usb(namebadge 1)
-pico_enable_stdio_uart(namebadge 0)
+pico_enable_stdio_usb(namebadge 0)
+pico_enable_stdio_uart(namebadge 1)
 
 # create map/bin/hex file etc.
 pico_add_extra_outputs(namebadge)
